@@ -2,10 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 export default class Gender extends React.Component {
-    changeColor() {
-        const newColor = this.state.color === 'gray' ? 'yellow' : 'gray';
-        this.setState({ backgroundColor: newColor })
-    }
+    
     render() {
         return (
             <>

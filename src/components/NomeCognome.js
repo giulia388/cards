@@ -6,7 +6,8 @@ export default class NomeCognome extends React.Component {
             <>
                 <div className='title-style'>{this.props.title}</div>
                 <form>
-                    <input className='input' type={'text'}></input>
+                    <input className='input' type={'text'}
+                    pattern="[a-z]" required></input>
                 </form>
             </>
         )

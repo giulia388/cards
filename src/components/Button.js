@@ -1,4 +1,4 @@
-const Button = ({ wd, bgColor, text, textColor, wg, hg, lowOp, selectButton }) => {
+const Button = ({ wd, bgColor, text, wg, hg, lowOp, selectButton }) => {
     // USARE lowOp PER I PULSANTI CHE FANNO CAMBIARE PAGINA
     // USARE selectButton PER I PULSANTI A SCELTA MULTIPLA (Da fixare)
     const handleButtonClick = (event) => {

@@ -5,7 +5,7 @@ export default class City extends React.Component {
         return (
             <>
                 <div className='title-style'>{this.props.title}</div>
-               <input type={'text'} className='input'></input> 
+               <input type={'text'} className='input' required></input> 
             </>
         )
     }

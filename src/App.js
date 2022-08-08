@@ -13,20 +13,21 @@ class App extends React.Component {
   render() {
 
     return (
-      <div style={{padding:'0% 2%'}}>
+      <form style={{padding:'0% 2%'}}>
         <NomeCognome title='Nome e Cognome'/>
         <Birth title='Data di nascita'/>
         <Gender title='Sesso'/>
         <Phone title='Recapito telefonico'/>
         <City title='Stato, Città'/>
         <SearchJob title='Sono in cerca di lavoro:'/>
+        <input type={'submit'}/>
         {/* <AboutYou name='' />
         <Field title="Competenze" section="competenze" />
         <Field title="Professione" section="professione" />
         <Field title="Azienda" section="azienda" />
         <Field title="Scuola" section="scuola" />
         <Field title="Abito a" section="città" /> */}
-      </div>
+      </form>
     )
   }
 }
