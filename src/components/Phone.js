@@ -1,16 +1,14 @@
-import React from "react";
+import React from 'react'
+import { useState } from 'react'
 
-export default class Phone extends React.Component {
-    render() {
-        return (
-            <>
-                <div className='title-style'>{this.props.title}</div>
-                <div className="phone-container">
-                    <input type="tel" className="input" autocomplete="tel"
-                        pattern="[0-9]" maxlength="12"
-                        required></input>
-                </div>
-            </>
-        )
-    }
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
+
+export default function Phone() {
+    const [value, setValue] = useState()
+    return (
+        <PhoneInput
+            value={value}
+            onChange={setValue} />
+    )
 }

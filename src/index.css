@@ -33,3 +33,7 @@ body{
   -ms-border-radius: 0.8em;
   -o-border-radius: 0.8em;
 }
+.phone-container{
+  display: flex;
+  flex-direction: row;
+}

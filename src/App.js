@@ -17,7 +17,8 @@ class App extends React.Component {
         <NomeCognome title='Nome e Cognome'/>
         <Birth title='Data di nascita'/>
         <Gender title='Sesso'/>
-        <Phone title='Recapito telefonico'/>
+        <div className='title-style'>Recapito telefonico</div>
+        <Phone/>
         <City title='Stato, Città'/>
         <SearchJob title='Sono in cerca di lavoro:'/>
         <input type={'submit'}/>
